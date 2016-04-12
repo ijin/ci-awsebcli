@@ -1,4 +1,4 @@
-# test pip instal for awsebcli
+# test pip install for awsebcli
 
 ## problem
 
@@ -8,6 +8,6 @@ This seems to be caused by CircleCI's default python version which is `2.7.6` (a
 
 ## solution
 
-Configure `circle.yml` to use a higher python version (i.e. 2.7.9+)
+Configure `circle.yml` to use a higher python version (i.e. `2.7.9+`)
 
 
